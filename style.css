@@ -1,0 +1,387 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+.menu  {
+    
+    display:flex;
+   
+    
+    
+    margin-left:45%;
+    right:0px;
+    gap:40px;
+    padding:5px 10px;
+    align-items:center;
+
+}
+header{
+    width:100%;
+    position:fixed;
+    background:white;
+    z-index:9;
+  
+}
+header a{
+    text-decoration:none;
+    color:black;
+    transition: all .3s ease;
+    border-bottom:2px solid transparent;
+}
+header a:hover{
+    border-bottom:2px solid purple;
+}
+#logo{
+    color:purple;
+    font-weight:700;
+    font-family:sans-serif;
+    padding:0px;
+    font-size:26px;
+    border:none;
+    background:transparent;
+    
+}
+header {
+    
+    
+    font-family:sans-serif;
+    font-weight: 400;
+    display:flex;
+    color:white;
+    padding:15px 10px;
+    align-items:center;
+    font-size:17px;
+    box-shadow: 0px 5px 10px rgba(128, 0, 128, 0.432); 
+}
+.menu button{
+    background:transparent;
+    border-radius:25px;
+    border:2px solid purple;
+    color:purple;
+    padding: 10px 15px;
+    font-weight:bold;
+    transition: all .3s ease;
+   
+}
+.menu button:hover{
+    cursor:pointer;
+    color:white;
+    background:purple;
+   
+    
+}
+#page1{
+    display:flex;
+    padding:120px 20px;
+
+    
+    
+}
+#headline h1{
+    color:black;
+}
+#headline{
+    display:block;
+    position:relative;
+    top:50px;
+    left:1%;
+    padding:0px;
+    color:grey;
+    margin: 80px 0;
+    font-size:1.2rem;
+
+}
+#pur{
+    background-color:purple;
+    padding:7px 20px;
+    border-radius:50px;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    font-family:sans-serif;
+    height:60px;
+    width:200px;
+    border:2px solid transparent;
+    margin-top:50px;
+    transition:all .3s ease;
+    
+
+}
+#pur:hover{
+    color:purple;
+    background-color:transparent;
+    border:2px solid purple;
+}
+#page1 img{
+    /* border:2px solid purple; */
+    position:relative;
+    right:0px;
+    
+    object-fit:cover;
+    transform:translate(80deg);
+
+}
+
+
+#page2{
+    overflow:hidden;
+    width:100%;
+   
+    padding-top:10px;
+    padding-left:10px;
+    
+    /* color:purple; */
+    padding-bottom:20px;
+    white-space:nowrap;
+    
+    
+}
+#logos{
+    animation: 7s  linear infinite slide;
+    display:inline-block;
+    
+
+    
+}
+
+@keyframes slide{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+}
+#logoss{
+    animation: 7s  linear infinite slides;
+    display:inline-block;
+    
+}
+@keyframes slides{
+    from{
+        transform:translateX(-100%);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+
+#page2 img{
+    
+    
+    margin:0px;
+    height:100px;
+    width:150px;
+    border-radius:10px;
+    border:none;
+    box-shadow:-5px 10px 10px rgba(0, 0, 0, 0.249);
+    
+    object-fit:contain;
+    aspect-ratio:4.5/2;
+    transition:all .3s ease;
+}
+#page2 img:hover{
+    cursor:pointer;
+
+    box-shadow:-5px 10px 10px rgba(128, 0, 128, 0.343),5px -5px 10px rgba(128, 0, 128, 0.343);
+    
+}
+#page3{
+    font-family:sans-serif;
+    text-align:center;
+    padding:10px;
+}
+#page3 h2{
+    margin-bottom:30px;
+    font-size:2rem;
+}
+#page3 p{
+    margin-bottom:30px;
+}
+.card{
+    border-radius:10px;
+    height:33%;
+    width:20%;
+    
+    padding:30px;
+    border:1px solid purple;
+}
+#card1 img:hover{
+    transform:scale(1.8);
+    object-fit:contain;
+}
+
+#p1 ,#p2 ,#p3{
+    width:100%;
+    overflow:hidden;
+    border-radius:10px;
+    object-position:20%;
+    aspect-ratio:3/2;
+    object-fit:contain;
+    
+    
+}
+
+.card ul{
+    text-align:left;
+    list-style-position:inside;
+    padding-left:40px;
+    list-style:disc;
+}
+.card li::marker{
+    color:purple;
+    font-size:1.5rem;
+}
+.card button{
+
+    background-color:purple;
+    padding:0 20px;
+    border-radius:50px;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    font-family:sans-serif;
+    height:40px;
+    width:150px;
+    border:2px solid transparent;
+    margin-top:10px;
+    cursor:pointer;
+
+}
+.card button:hover{
+    background-color:transparent;
+    border:2px solid purple;
+    color:purple;
+}
+plan{
+    display:flex;
+    justify-content:space-between;
+}
+#p1 img{
+    transform:scale(1.5);
+    height:100%;
+    width:100%;
+    border-radius:13px;
+  
+    transition:all .3s ease;
+}
+#p2 img{
+    transform:scale(1.5);
+    height:100%;
+    width:100%;
+    border-radius:13px;
+    object-fit:contain;
+    transition:all .3s ease;
+}
+#p3 img{
+    transform:scale(1.5);
+    height:100%;
+    width:100%;
+    border-radius:13px;
+    object-fit:contain;
+    transition:all .3s ease;
+    
+}
+#page4{
+    display:flex;
+    gap:60px;
+    margin:20px 0px 0px 0px;
+    background-image:linear-gradient(180deg,rgb(255, 253, 255),rgb(253, 217, 253),rgb(252, 134, 252));
+    align-items:center;
+}
+#head{
+    margin-bottom:40px;
+}
+#page4 img{
+    height:350px;
+    width:300px;
+    object-fit:cover;
+    margin-bottom:50px;
+    margin-left:30px;
+    margin-top:30px;
+    
+}
+
+#heading2 h1{
+    margin-bottom:50px;
+}
+#one
+{
+    font-size:0.8rem;
+    font-weight:bold;
+    
+
+}
+#page5{
+    background-image:linear-gradient(180deg,white,rgb(251, 211, 251));
+   
+    padding:50px 10px;
+}
+
+#head2{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:2rem;
+}
+#container{
+    display:flex;
+    gap:70px;
+
+}
+#contact{
+    margin-left:40px;
+}
+form{
+    margin-right:100px;
+}
+form h2{
+    padding:0px;
+    margin:0px;
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+form input{
+    height:40px;
+    width:140%;
+    padding:0 10px;
+    margin-bottom:10px;
+    
+
+}
+footer{
+    background-color:rgb(191, 29, 191);
+   color:white;
+    padding:50px 50px 0px 50px;
+}
+#icons{
+    margin-top:20px;
+    color:white;
+   
+    font-size:22px;
+}
+i{
+    margin-right:10px;
+    
+    padding:10px;
+    border-radius:30px;
+}
+#footer-container{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+footer p{
+    text-align:center;
+    margin-top:50px;
+    color:white;
+}
+#comp li{
+    list-style:none;
+    margin:10px;
+    
+}
+#copy{
+    font-size:10px;
+}
